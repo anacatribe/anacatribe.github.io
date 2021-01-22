@@ -5,7 +5,8 @@ const config: NuxtConfig = {
   build: {},
   buildModules: [
     '@nuxtjs/composition-api',
-    '@nuxt/typescript-build'
+    '@nuxt/typescript-build',
+    '@nuxtjs/tailwindcss'
   ],
   css: [],
   env: {},
