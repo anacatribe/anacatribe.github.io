@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/options-api", {data:[{asyncMessage:"I'm defined on asyncData()",userAgent:"Unknown"}],fetch:[],mutations:[]});
