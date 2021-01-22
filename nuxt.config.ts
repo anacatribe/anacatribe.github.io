@@ -22,11 +22,18 @@ const config: NuxtConfig = {
   },
   loading: { color: '#0c64c1' },
   modules: [
+    '@nuxtjs/google-fonts',
     ['nuxt-lazy-load', { directiveOnly: true }]
   ],
   plugins: [
-    '~/plugins/truncate'
-  ]
+    '~/plugins/truncate',
+    '~/plugins/aos'
+  ],
+  googleFonts: {
+    families: {
+      Dosis: [100, 200, 300, 400, 500]
+    }
+  }
 }
 
 export default config

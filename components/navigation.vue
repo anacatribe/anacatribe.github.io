@@ -30,7 +30,7 @@
             </svg>
           </button>
         </div>
-        <div class="flex-1 flex items-center justify-center md:items-stretch md:justify-start">
+        <div class="flex-1 flex items-center justify-center md:items-stretch md:justify-center">
           <div class="flex-shrink-0 flex items-center">
             <img class="block lg:hidden h-12 w-auto" src="~/assets/logo-small.png" alt="Anaca Tribe Logo">
             <img class="hidden lg:block h-12 w-auto" src="~/assets/logo-small.png" alt="Anaca Tribe Logo">
@@ -38,19 +38,28 @@
           <div class="hidden md:flex md:items-center md:ml-6">
             <div class="flex space-x-4">
               <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-              <a v-for="link in links" :key="link" href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-base font-medium">{{ link }}</a>
+              <a v-for="link in links" :key="link" href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-lg font-medium">{{ link }}</a>
             </div>
           </div>
         </div>
       </div>
     </div>
-
-    <div v-if="expand" class="block sm:hidden">
-      <div class="px-2 pt-2 pb-3 space-y-1">
-        <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-        <a v-for="link in links" :key="link" href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">{{ link }}</a>
+    <transition
+      mode="out-in"
+      enter-active-class="duration-150 ease-out"
+      enter-from-class="opacity-0 scale-95"
+      enter-to-class="opacity-100 scale-100"
+      leave-active-class="duration-100 ease-in"
+      leave-from-class="opacity-100 scale-100"
+      leave-to-class="opacity-0 scale-95"
+    >
+      <div v-if="expand" class="block relative sm:hidden">
+        <div class="px-2 pt-2 pb-3 space-y-1">
+          <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
+          <a v-for="link in links" :key="link" href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">{{ link }}</a>
+        </div>
       </div>
-    </div>
+    </transition>
   </nav>
 </template>
 

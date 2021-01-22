@@ -1,6 +1,12 @@
+const defaultTheme = require("tailwindcss/defaultTheme");
+
 // tailwind.config.js
 module.exports = {
   theme: {
+    fontFamily: {
+      ...defaultTheme.fontFamily,
+      sans: ["Dosis", ...defaultTheme.fontFamily.sans],
+    },
     extend: {
       animation: {
         fadeIn: "fadeIn 2s ease-in forwards",
@@ -18,4 +24,5 @@ module.exports = {
       animation: ["motion-safe"],
     },
   },
+  plugins: [require("@tailwindcss/typography")],
 };
