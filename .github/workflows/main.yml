@@ -10,20 +10,22 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
-    strategy:
-      matrix:
-        api: [options, class, composition]
-
     steps:
       - uses: actions/checkout@v2
 
       - name: Run initializing script
         run: COMPONENT_API=${{ matrix.api }} ./init.sh
 
-      - run: npm install
+      - run: yarn install
 
       - name: Run lint
-        run: npm run lint
+        run: yarn lint
 
       - name: Run static site generation
-        run: npm run generate
+        run: yarn generate
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
