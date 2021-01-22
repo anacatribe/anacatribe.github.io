@@ -2,6 +2,7 @@ import type { NuxtConfig } from '@nuxt/types'
 
 const config: NuxtConfig = {
   target: 'static',
+  components: true,
   build: {},
   buildModules: [
     '@nuxtjs/composition-api',
@@ -11,7 +12,7 @@ const config: NuxtConfig = {
   css: [],
   env: {},
   head: {
-    title: 'nuxt-community/typescript-template',
+    title: 'Anacã Tribe - A place to learn, teach, and together create',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
