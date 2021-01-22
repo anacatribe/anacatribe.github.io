@@ -21,7 +21,9 @@ const config: NuxtConfig = {
     link: []
   },
   loading: { color: '#0c64c1' },
-  modules: [],
+  modules: [
+    ['nuxt-lazy-load', { directiveOnly: true }]
+  ],
   plugins: [
     '~/plugins/truncate'
   ]

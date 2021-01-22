@@ -1,9 +1,21 @@
 // tailwind.config.js
 module.exports = {
   theme: {
-    extend: {},
+    extend: {
+      animation: {
+        fadeIn: "fadeIn 2s ease-in forwards",
+      },
+      keyframes: {
+        fadeIn: {
+          "0%": { opacity: 0 },
+          "100%": { opacity: 1 },
+        },
+      },
+    },
   },
   variants: {
-    extend: {},
+    extend: {
+      animation: ["motion-safe"],
+    },
   },
 };
