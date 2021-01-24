@@ -22,7 +22,10 @@ jobs:
         run: yarn lint
 
       - name: Run static site generation
-        run: yarn generate && cp CNAME ./dist
+        run: yarn generate
+
+      - name: Copy CNAME
+        run: cp CNAME ./dist
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3

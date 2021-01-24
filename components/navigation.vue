@@ -1,5 +1,5 @@
 <template>
-  <nav class="bg-gray-900">
+  <nav class="bg-gray-900 fixed z-10 w-full shadow-md md:bg-opacity-90">
     <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
       <div class="relative flex items-center justify-between h-20">
         <div class="absolute inset-y-0 left-0 flex items-center md:hidden">
@@ -53,7 +53,7 @@
       leave-from-class="opacity-100 scale-100"
       leave-to-class="opacity-0 scale-95"
     >
-      <div v-if="expand" class="block relative sm:hidden">
+      <div v-if="expand" class="block relative md:hidden">
         <div class="px-2 pt-2 pb-3 space-y-1">
           <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
           <a v-for="link in links" :key="link" href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">{{ link }}</a>
@@ -70,7 +70,7 @@ export default defineComponent({
   setup () {
     const expand = ref(false)
 
-    const links = ['About Us', 'Get Togethers', 'Events', 'Livestreams', 'Helping Hands', 'Donation', 'Contact']
+    const links = ['About Us', 'Get Togethers', 'Livestreams', 'Events', 'Helping Hands', 'Connect']
 
     return { expand, links }
   }
