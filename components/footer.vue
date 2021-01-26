@@ -9,13 +9,13 @@
         </div>
 
         <div class="px-5 py-2">
-          <nuxt-link to="/about" class="text-base text-gray-500 hover:text-gray-900">
+          <nuxt-link to="/imprint" class="text-base text-gray-500 hover:text-gray-900">
             Imprint
           </nuxt-link>
         </div>
 
         <div class="px-5 py-2">
-          <a href="#" class="text-base text-gray-500 hover:text-gray-900">
+          <a class="text-base text-gray-500 hover:text-gray-900">
             Data Privacy
           </a>
         </div>

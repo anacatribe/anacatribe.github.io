@@ -1,7 +1,5 @@
 <template>
-  <div class="text-gray-500 antialiased bg-white js-focus-visible">
-    <Navigation />
-
+  <div>
     <main>
       <!-- INTRO -->
       <section class="mb-24 relative flex h-screen bg-center bg-cover background-fade-in-transition" lazy-background="~/assets/bg-rio.jpg">
@@ -100,7 +98,6 @@
     </main>
 
     <Contact />
-    <Footer />
   </div>
 </template>
 

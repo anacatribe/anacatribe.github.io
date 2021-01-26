@@ -4,6 +4,7 @@
   "version": "2.14.12",
   "private": true,
   "dependencies": {
+    "@nuxt/content": "^1.9.0",
     "@nuxt/typescript-runtime": "2.0.1",
     "@nuxtjs/composition-api": "0.18.1",
     "@nuxtjs/tailwindcss": "^3.4.2",
