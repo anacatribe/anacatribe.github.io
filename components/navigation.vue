@@ -37,8 +37,7 @@
           </div>
           <div class="hidden md:flex md:items-center md:ml-6">
             <div class="flex space-x-4">
-              <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-              <nuxt-link v-for="(link, index) in links" :key="index" :to="link.path" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-lg font-medium">
+              <nuxt-link v-for="(link, index) in links" :key="index" :to="link.path" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-lg font-medium" exact-active-class="bg-gray-500 text-white">
                 {{ link.name }}
               </nuxt-link>
             </div>
@@ -57,8 +56,7 @@
     >
       <div v-if="expand" class="block relative md:hidden">
         <div class="px-2 pt-2 pb-3 space-y-1">
-          <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-          <nuxt-link v-for="( link, index) in links" :key="index" :to="link.path" class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
+          <nuxt-link v-for="( link, index) in links" :key="index" :to="link.path" class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium" exact-active-class="bg-gray-500 text-white">
             {{ link.name }}
           </nuxt-link>
         </div>
@@ -82,27 +80,27 @@ export default defineComponent({
     const links: Link[] = [
       {
         name: 'About Us',
-        path: '#about-us'
+        path: '/#about-us'
       },
       {
         name: 'Get Togethers',
-        path: '#get-togethers'
+        path: '/#get-togethers'
       },
       {
         name: 'Livestreams',
-        path: '#livestreams'
+        path: '/#livestreams'
       },
       {
         name: 'Events',
-        path: '#events'
+        path: '/#events'
       },
       {
         name: 'Helping Hands',
-        path: '#helping-hands'
+        path: '/#helping-hands'
       },
       {
         name: 'Connect',
-        path: '#connect'
+        path: '/#connect'
       }
     ]
 

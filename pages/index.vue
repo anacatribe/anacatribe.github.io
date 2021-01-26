@@ -69,8 +69,8 @@
               Events
             </h2>
             <p data-aos="fade-in" class="text-xl sm:text-2xl font-medium sm:leading-10 space-y-6 mb-24">
-              Promoting the artists growing in our get-togethers and bringing the Brazilian culture to the world, we will focus on experiences created to enhance all of your senses. Maybe you end up in a Brazilian wonderland full of goodies ... or meditating in a deep forest.
-              Focus on collaboration, this is the place for you to show the world your talent, your ideas and passions!
+              Promoting the artists growing in our get togethers and bringing the Brazilian culture to the world, we will focus on experiences created to enhance all of your senses. Maybe you end up in a Brazilian wonderland full of goodies ... or meditating in a deep forest.
+              Focus on collaboration, this is the place for you to show the world your talent, ideas and passions!
             </p>
           </div>
         </div>
@@ -86,7 +86,9 @@
               Helping Hands
             </h2>
             <p data-aos="fade-in" class="text-xl sm:text-2xl font-medium sm:leading-10 space-y-6 mb-24">
-              Anacã deeply believes that music can change the world, and for that to happen, we started the project “Helping Hands.” Through our fundraising campaigns, our mission is to provide basic care, knowledge and generate job opportunities. Projects we support:<br><br>
+              Anacã deeply believes that music can change the world, and for that to happen, we started the project “Helping Hands.” Through our fundraising campaigns, our mission is to provide basic care, knowledge and generate job opportunities.
+              <br><br>
+              Projects we support:<br><br>
 
               <strong>AfroReggae:</strong> AfroReggae is a Brazilian organization founded in 1993 with a clear mission: to reduce the use of drugs, disease, and crime in the favelas through artistic education.<br><br>
 
