@@ -1,1 +1,0 @@
-window.__NUXT__={staticAssetsBase:"\u002F_nuxt\u002Fstatic\u002F1612307043",layout:"default",error:null,state:{description:"I'm defined by server side",setting:{darkMode:false}},serverRendered:true,routePath:"\u002Fimprint",config:{content:{dbHash:"1a48a9ac"}},globalRefs:{}};
