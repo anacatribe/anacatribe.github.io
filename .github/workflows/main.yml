@@ -13,9 +13,6 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - name: Run initializing script
-        run: COMPONENT_API=${{ matrix.api }} ./init.sh
-
       - run: yarn install
 
       - name: Run lint

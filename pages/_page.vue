@@ -1,7 +1,7 @@
 <template>
-  <div class="max-w-screen-lg mb-24 xl:max-w-screen-xl mx-auto space-y-20 sm:space-y-32 md:space-y-40 lg:space-y-44">
+  <div class="max-w-screen-lg mx-auto mb-24 space-y-20 xl:max-w-screen-xl sm:space-y-32 md:space-y-40 lg:space-y-44">
     <nuxt-content
-      class="prose max-w-none text-justify pt-32"
+      class="pt-32 prose text-justify max-w-none"
       :document="page"
     />
   </div>
