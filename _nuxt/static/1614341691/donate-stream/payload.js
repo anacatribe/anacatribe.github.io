@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/donate-stream", {data:[{}],fetch:[],mutations:[]});
