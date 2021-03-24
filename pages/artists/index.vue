@@ -23,11 +23,11 @@
               <li class="sm:py-8">
                 <artist
                   name="Lica"
-                  location="London"
+                  location="London, United Kingdom"
                   soundcloud="https://soundcloud.com/ilonalica"
                   facebook="https://www.facebook.com/licaofficial/about/"
                   instagram="https://www.instagram.com/ilona.lica"
-                  image="lica.webp"
+                  image="lica.jpeg"
                 >
                   Estonian born, Ilona aka LICA has enjoyed a rapid ascent
                   through the Electronic music scene with her energetic and
@@ -41,23 +41,20 @@
               <li class="sm:py-8">
                 <artist
                   name="Ana"
-                  location="Sao Paulo"
-                  soundcloud="https://soundcloud.app.goo.gl/BreCFfowxTMNJtm4A"
-                  facebook="https://www.facebook.com/licaofficial/about/"
+                  location="Belo Horizonte, Brazil"
                   instagram="https://www.instagram.com/ilona.lica"
-                  image="ana.webp"
+                  soundcloud="https://soundcloud.com/ana-jablonski"
+                  image="ana.jpeg"
                 >
-                  Elegance. Word that describes the melody within Ana
-                  Jablonski’s sound. The Brazilian artist started her career in
-                  2016. Jablonski fell under the spell of house music at a young
-                  age though her father, a music enthusiast. She captivates the
-                  scene with her performance, versatile sound and dazzles the
-                  club and fashion circuit in Brazil. Ana worked as a model for
-                  ten years, though time, the young artist collected experience
-                  all over the world, getting to know different cultures,
-                  impacting her identity. Those years contributed to her
-                  knowledge in music, becoming a DJ with good references and a
-                  strong personality.
+                  Ana fell under the spell of house music at a young age
+                  through her father, a music enthusiast.
+                  The Brazilian artist started her
+                  career in 2016 and captivated the music scene with her performance,
+                  versatile sound and dazzling the club and fashion circuit in Brazil.
+                  Ana worked as a model for ten years, but with time, the young artist
+                  collected experience all over the world, getting to know different cultures,
+                  impacting her identity. Those years contributed to her knowledge in music,
+                  becoming a DJ with good references and a strong personality.
                 </artist>
               </li>
             </ul>

@@ -12,9 +12,11 @@
     <div class="sm:col-span-2">
       <div class="space-y-4">
         <div class="space-y-1 font-medium leading-6">
-          <h3 class="text-xl">
-            {{ name }}
-          </h3>
+          <nuxt-link :to="`artists/${getArtistName(name)}`">
+            <h3 class="text-xl">
+              {{ name }}
+            </h3>
+          </nuxt-link>
           <p class="text-lg text-gray-400">
             {{ location }}
           </p>
@@ -25,7 +27,7 @@
           </p>
         </div>
         <ul class="flex space-x-5">
-          <li>
+          <li v-if="soundcloud">
             <a
               :href="soundcloud"
               target="_blank"
@@ -56,7 +58,8 @@
               </svg>
             </a>
           </li>
-          <li>
+
+          <li v-if="facebook">
             <a
               :href="facebook"
               target="_blank"
@@ -76,7 +79,7 @@
             </a>
           </li>
 
-          <li>
+          <li v-if="instagram">
             <a
               :href="instagram"
               target="_blank"
@@ -125,16 +128,23 @@ export default defineComponent({
     },
     soundcloud: {
       type: String,
-      required: true
+      required: false,
+      default: undefined
     },
     facebook: {
       type: String,
-      required: true
+      required: false,
+      default: undefined
     },
     instagram: {
       type: String,
-      required: true
+      required: false,
+      default: undefined
     }
+  },
+  setup () {
+    const getArtistName = (name: string): string => name.toLowerCase()
+    return { getArtistName }
   }
 })
 </script>

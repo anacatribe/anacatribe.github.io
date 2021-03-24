@@ -99,8 +99,8 @@ export default defineComponent({
         path: '/#helping-hands'
       },
       {
-        name: 'Donate',
-        path: '/donate'
+        name: 'Artists',
+        path: '/artists'
       },
       {
         name: 'Connect',
