@@ -10,6 +10,7 @@
     "@nuxtjs/tailwindcss": "^3.4.2",
     "@tailwindcss/forms": "^0.2.1",
     "@tailwindcss/typography": "^0.4.0",
+    "@vueuse/core": "^4.4.1",
     "aos": "^3.0.0-beta.6",
     "emailjs-com": "^2.6.4",
     "mini-svg-data-uri": "^1.2.3",

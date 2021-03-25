@@ -54,7 +54,11 @@
       leave-from-class="scale-100 opacity-100"
       leave-to-class="scale-95 opacity-0"
     >
-      <div v-if="expand" class="relative block lg:hidden">
+      <div
+        v-if="expand"
+        ref="mobileMenuRef"
+        class="relative block lg:hidden"
+      >
         <div class="px-2 pt-2 pb-3 space-y-1">
           <nuxt-link v-for="( link, index) in links" :key="index" :to="link.path" class="block px-3 py-2 text-base font-medium text-gray-300 rounded-md hover:bg-gray-700 hover:text-white" exact-active-class="text-white bg-gray-500">
             {{ link.name }}
@@ -66,8 +70,10 @@
 </template>
 
 <script lang="ts">
+import { MaybeElementRef, onClickOutside } from '@vueuse/core'
 
 import { defineComponent, ref } from '@nuxtjs/composition-api'
+
 export default defineComponent({
   setup () {
     const expand = ref(false)
@@ -76,6 +82,12 @@ export default defineComponent({
       name: string,
       path: string
     }
+
+    const mobileMenuRef = 'mobileMenuRef'
+
+    onClickOutside(mobileMenuRef as unknown as MaybeElementRef, () => {
+      expand.value = false
+    })
 
     const links: Link[] = [
       {
@@ -108,7 +120,7 @@ export default defineComponent({
       }
     ]
 
-    return { expand, links }
+    return { expand, links, mobileMenuRef }
   }
 })
 </script>
