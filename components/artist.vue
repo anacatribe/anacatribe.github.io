@@ -8,6 +8,11 @@
         :src="require(`~/assets/img/artists/${image}`)"
         alt="Press Photo of DJ Lica"
       >
+      <div class="flex">
+        <nuxt-link :to="`/artists/${getArtistName(name)}`" class="items-center w-full px-8 py-4 mt-2 text-xl font-medium text-center text-white bg-gray-500 border border-transparent rounded-md shadow-sm hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900">
+          More About {{ name }}
+        </nuxt-link>
+      </div>
     </div>
     <div class="sm:col-span-2">
       <div class="space-y-4">
@@ -144,6 +149,7 @@ export default defineComponent({
   },
   setup () {
     const getArtistName = (name: string): string => name.toLowerCase()
+
     return { getArtistName }
   }
 })

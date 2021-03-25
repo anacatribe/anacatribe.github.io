@@ -153,7 +153,7 @@
                           <div class="text-base text-gray-900">
                             {{ q.question }}
                           </div>
-                          <div class="mt-1 text-sm text-gray-700">
+                          <div class="mt-1 text-sm text-gray-500">
                             <p>
                               {{ q.answer }}
                             </p>
