@@ -88,12 +88,6 @@
               <br><br>
               Projects we support:<br><br>
 
-              <strong>AfroReggae</strong> is a Brazilian organization founded in 1993 with a clear mission: to reduce the use of drugs, disease, and crime in the favelas through artistic education.
-
-              The initiative increases the self-esteem of young favela residents, in addition to generating income, away from the influence of drug trafficking.
-
-              AfroReggae started to develop projects in poor, violent areas through workshops, classes, events and others. <br><br>
-
               <strong>Água Camelo</strong> is a social-impact tech company that provides access to a safe source of clean water for people in vulnerable situations.
               They created a backpack that holds up to 15L to collect, transport, store, and filter the water inside the homes of those in need.
               Most Brazilians who don't have access to clean water usually have to walk km(s) to access some water. We want to change this scenario!
