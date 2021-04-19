@@ -148,7 +148,7 @@ export default defineComponent({
     }
   },
   setup () {
-    const getArtistName = (name: string): string => name.toLowerCase()
+    const getArtistName = (name: string): string => name.toLowerCase().replace(' ', '-')
 
     return { getArtistName }
   }

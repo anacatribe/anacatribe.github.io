@@ -57,6 +57,22 @@
                   becoming a DJ with good references and a strong personality.
                 </artist>
               </li>
+              <li class="sm:py-8">
+                <artist
+                  name="Marvin Jam"
+                  location="Berlin, Germany"
+                  instagram="https://www.instagram.com/marvin_jam333"
+                  soundcloud="https://soundcloud.com/marvin-jam/soundity-livestream"
+                  facebook="https://www.facebook.com/MarvinJam333/about"
+                  image="marvin1.jpg"
+                >
+                  What the world means to Marvin Jam may be compared to a child in a candy shop.<br><br>
+                  Marvin performs his outstanding, groovy sound and sets in combination with his excellent singing. Enjoying and enhancing many clubs and festivals like Sisyphos, Kater, Fusion or Feel Festival with his funkband, he began to join and support different DJs, so as well Live-Acts.<br><br>
+                  Today he’s creating tracks on his own or in cooperation with different producers.
+                  Emancipating himself to a solo-artist and as a DJ, his incredible tunes create an unique sound including different genres and of course featured by his lovely voice.
+                  And if there’s one clean sign, is that this Dude got Taste & Style.
+                </artist>
+              </li>
             </ul>
           </div>
         </div>
