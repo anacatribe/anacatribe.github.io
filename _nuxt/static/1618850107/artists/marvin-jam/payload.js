@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/artists/marvin-jam", {data:[{}],fetch:[],mutations:[]});
