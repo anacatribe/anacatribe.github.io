@@ -1,0 +1,1 @@
+window.__NUXT__={staticAssetsBase:"\u002F_nuxt\u002Fstatic\u002F1618920706",layout:"default",error:null,state:{description:"I'm defined by server side",setting:{darkMode:false}},serverRendered:true,routePath:"\u002Fartists\u002Fana",config:{content:{dbHash:"9a0d2838"}},globalRefs:{}};
