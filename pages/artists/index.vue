@@ -73,6 +73,27 @@
                   And if there’s one clean sign, is that this Dude got Taste & Style.
                 </artist>
               </li>
+
+              <li class="sm:py-8">
+                <artist
+                  name="Sagan"
+                  location="Berlin, Germany"
+                  instagram="https://instagram.com/saganmusica"
+                  soundcloud="https://soundcloud.com/saganmusica/live-radio-sunshine"
+                  facebook="https://www.facebook.com/saganmusica"
+                  image="sagan1.jpg"
+                >
+                  Sagan’s universe is a reflection of the past and a window into the future.
+                  Ranging from 80's Punk fueled by raw drums to Disco where syncopated basses
+                  take over, Sagan does not hesitate to flirt with electro, acid, dance,
+                  house, techno, synth-wave, left-field, and an endless number of styles of
+                  music beyond the limitations of genres.
+                  With intrigue for the undiscovered, hunger for knowledge, love for music and
+                  an engine fueled by curiosity, her main goal is to break the limits of the
+                  obvious and the predictable, create conceptual atmospheres without losing
+                  the main focus of playing with minds, and still make everyone dance.
+                </artist>
+              </li>
             </ul>
           </div>
         </div>
