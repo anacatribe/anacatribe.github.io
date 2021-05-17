@@ -94,6 +94,29 @@
                   the main focus of playing with minds, and still make everyone dance.
                 </artist>
               </li>
+
+              <li class="sm:py-8">
+                <artist
+                  name="Dan"
+                  location="Berlin, Germany"
+                  instagram="https://www.instagram.com/danburi"
+                  soundcloud="https://soundcloud.com/dan-buri"
+                  facebook="https://www.facebook.com/DanBuriArtistPage"
+                  image="dan-buri.jpg"
+                >
+                  Dan Buri is connecting the dots between his two worlds.
+                  His German upbringing reverberates in the brooding yet melodic
+                  soundscapes that he plays but his Thai roots lend him a more
+                  lighthearted and the “sabai sabai” approach to everything that he does.
+                  In fact, whether he’s playing deep and melodic techno or
+                  organic house, his legacy in the city is defined by his
+                  high-octane performances and an unparalleled ability to
+                  engage and connect with the crowd. Notorious for pushing
+                  boundaries into nonexistence, Dan has crafted a career out
+                  of fusing together his many worlds in seamless and syncopated
+                  harmony.
+                </artist>
+              </li>
             </ul>
           </div>
         </div>
