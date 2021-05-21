@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/artists/ben-tov", {data:[{}],fetch:[],mutations:[]});
