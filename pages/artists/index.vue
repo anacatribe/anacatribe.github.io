@@ -117,6 +117,19 @@
                   harmony.
                 </artist>
               </li>
+
+              <li class="sm:py-8">
+                <artist
+                  name="Ben Tov"
+                  location="Cape Town, South Africa"
+                  instagram="https://www.instagram.com/bentovmusic"
+                  soundcloud="https://soundcloud.com/bentovmusic"
+                  image="ben-tov.jpg"
+                >
+                  Not one to pigeonhole himself into one style, Ben Tov traverses the BPM's and
+                  moods, and focuses on telling a story through progression with his melodic, sets and productions. Ben Tov can be regularly found locked away in his studio, jamming together ideas and carving out his deep signature analog synth-lines and grooves for his next upcoming release. With a slew of releases already under his belt, and constant releases on labels such as Katz and Kautz and Deeplomatic. His latest release on Harabe Recordings Nightmares compiled by Elif hit the Beatport charts.
+                </artist>
+              </li>
             </ul>
           </div>
         </div>
